@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hello Everyone Font Changer</title>
+<style>
+  /* Default font style */
+  #hello {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+  }
+</style>
+</head>
+<body>
+
+<div id="hello">Hello Everyone</div>
+
+<select id="fontSelector" onchange="changeFont()">
+  <option value="Arial, sans-serif">Arial</option>
+  <option value="Times New Roman, serif">Times New Roman</option>
+  <option value="Courier New, monospace">Courier New</option>
+  <option value="Verdana, sans-serif">Verdana</option>
+</select>
+
+<script>
+function changeFont() {
+  var selectBox = document.getElementById("fontSelector");
+  var selectedFont = selectBox.options[selectBox.selectedIndex].value;
+  document.getElementById("hello").style.fontFamily = selectedFont;
+}
+</script>
+
+</body>
+</html>

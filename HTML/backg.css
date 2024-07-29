@@ -1,0 +1,9 @@
+*{
+    background-image: url(asset/shinchan\ 1.jpg), url(asset/shinchan\ 2.jpg);
+    background-repeat: no-repeat,no-repeat;
+    background-size: 50% 100%, 50% 100%;
+    background-position: right,left;
+    background-blend-mode: saturation;
+
+
+}

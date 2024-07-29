@@ -1,0 +1,16 @@
+.bm{
+    border-top: 10px solid purple;
+    border-right: 10px solid purple;
+    border-bottom: 10px solid purple;
+    border-left: 10px solid purple;
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    padding-right: 4px;
+    background-clip: border-box;
+    
+}

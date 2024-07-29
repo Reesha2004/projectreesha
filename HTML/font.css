@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&display=swap');
+
+.f1{
+    padding: 4px 4px;
+    margin: 5px 5px;
+    font-family:"Chocolate Classical Sans" ;
+    background-color: aqua;
+}
+.i1{
+    color: blueviolet;
+    font-size: 100px;
+}
+.i11{
+    color: red;
+    font-size: 100px;
+}

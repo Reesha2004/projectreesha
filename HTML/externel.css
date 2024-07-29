@@ -1,0 +1,26 @@
+/* .r{
+    background-color: rgba(255, 0, 0, 0)
+}
+.e{
+    background-color: rgba(255, 0, 0, 0.2);
+}
+.s{
+    background-color: rgba(255, 0, 0, 0.4);
+
+}
+.h{
+    background-color: rgba(255, 0, 0, 0.6);
+
+}
+.a{
+    background-color: rgba(255, 0, 0, 0.8);
+
+}
+.g{
+    background-color: rgba(255, 0, 0, 1.0);
+
+} */
+*{
+    background-image: url(asset/cat-baby-kitten-cat-domestic-cat-baby-cat-pet-royalty-free-thumbnail.jpg);
+    background-repeat: no-repeat;
+}

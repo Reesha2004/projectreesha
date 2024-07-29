@@ -1,0 +1,32 @@
+*{
+    background-image: linear-gradient(red, yellow);
+    background-repeat: no-repeat;
+}
+.exp1{
+outline: solid; 
+outline-width: thick; 
+background-color: blueviolet; 
+text-align: justify;
+text-transform: uppercase;
+text-indent: 20px;
+letter-spacing: 5px;
+text-shadow: 3px 4px 3px purple;
+}
+.exp2{
+    outline: outset;
+    background-color: blue; 
+    outline-width: thick; 
+    direction: ltr;
+    text-transform: lowercase;
+    line-height: 1.8;
+    word-spacing: 4px;
+    }
+.exp3{
+     outline: dashed;
+     background-color: red;  
+     outline-width: thin;  
+     text-decoration-line: line-through;
+     text-transform: capitalize;
+     text-shadow: 2px 2px grey;
+   }
+    

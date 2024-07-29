@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="layout.html" method="post">
+        <fieldset style="width: 50%;">
+            <legend>Google Form</legend>
+            <table>
+                <tr>
+                    <td><label for="usname">UserName</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="usname" value="" name="UserName" placeholder="enter ur name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td>:</td>
+                    <td><input type="email" id="email" value="" name="Email" placeholder="enter ur email" required></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>:</td>
+                    <td><input type="radio" id="male" name="gen" value="male"><label for="male">M</label>
+                    <input type="radio" id="female" name="gen" value="female"><label for="female">F</label></td>
+                </tr>
+                <tr>
+                    <td><label for="lang">language known</label></td>
+                    <td>:</td>
+                    <td><input type="checkbox" id="html" name="lang" value="html">HTML
+                    <input type="checkbox" id="css" name="lang" value="css">CSS
+                    <input type="checkbox" id="js" name="lang" value="js">JS</td>
+                </tr>
+                <tr>
+                    <td><label for="domain">Domain</label></td>
+                    <td>:</td>
+                    <td><select id="domain" name="domain">
+                        <option value="frontend">frontend</option>
+                        <option value="backend">backend</option>
+                        <option value="UI/UX">UI/UX</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Date</label></td>
+                    <td>:</td>
+                    <td><input type="date" id="date" value="" name="date" placeholder="enter the date" required=></td>
+                </tr>
+                <tr>
+                    <td><label for="tel">Tel</label></td>
+                    <td>:</td>
+                    <td><input type="tel" id="tel" value="" name="tel" placeholder="enter ur tel" required></td>
+                </tr>
+                <tr>
+                    <td><label for="number">Number</label></td>
+                    <td>:</td>
+                    <td><input type="number" id="number" value="987674" name="Number" placeholder="enter ur number" required readonly></td>
+                </tr>
+                <tr>
+                    <td><label for="time">Time</label></td>
+                    <td>:</td>
+                    <td><input type="time" id="time" value="" name="Time" placeholder="enter the time" required></td>
+                </tr>
+                <tr>
+                    <td><label for="color">Color</label></td>
+                    <td>:</td>
+                    <td><input type="color" id="color" value="" name="color" placeholder="enter the color" required></td>
+                </tr>
+                <tr>
+                    <td><label for="week">Week</label></td>
+                    <td>:</td>
+                    <td><input type="week" id="week" value="" name="week" placeholder="enter the week" required></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit"></td>
+                    <td><input type="reset" value="Reset"></td>
+                </tr>
+                
+
+            </table>
+        </fieldset>
+
+    </form>
+</body>
+</html>
